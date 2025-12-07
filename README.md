@@ -83,6 +83,9 @@ Currently, the main recommendation to improve the system's performance consists 
 
 -Add additional future test scenarios, including multi-endpoint testing and authenticated workflow testing.
 
+# Conclusion
+Overall, the outcomes of this project demonstrate the performance capacity of the API under a variety of loads while clearly identifying the difference between a stable operational state and an overloaded or stressed system state. The API is heavily optimised to operate at a high level for both moderate and prolonged periods of load, showing consistent performance across the Load and Soak testing phases. However, the maximum operating threshold on the API is reached when subjected to extremely high levels of concurrency (as seen in the Stress Test). These results demonstrate just how critical it is to conduct performance testing to understand what a system is capable of so that any bottlenecks that exist within the system can be found and corrected prior to further optimisation of the API.
+
 ## Project Documentation
 - 📄 [Final Report (PDF)](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/Network%20Programming%20Individual%20Assignment_Nur%20Amirah%20Fikriyah.pdf)
 - 
