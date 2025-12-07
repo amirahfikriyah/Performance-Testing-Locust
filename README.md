@@ -12,9 +12,9 @@ The hypothesis made by the creator of the test API was that it would work consis
 1️⃣ Load Test
 
 Purpose: Evaluate system behavior under typical and peak expected user load.
--Users: 100
--Duration: 6 minutes
--Outcome: Measures response stability and error rates under moderate pressure.
+Users: 100
+Duration: 6 minutes
+Outcome: Measures response stability and error rates under moderate pressure.
 
 2️⃣ Stress Test
 
@@ -29,6 +29,12 @@ Purpose: Assess long-term stability and resource behavior.
 Users: 150
 Duration: 44 minutes
 Outcome: Detects memory leaks, degradation, and prolonged response-time patterns.
+
+# Raw Data Presentation
+## Load Test Results
+![Load Test Statistics](http://i.hmp.me/m/67b8704e2edda56ddc41b5c3b404c70a.png)
+
+
 
 ## Project Documentation
 - 📄 [Final Report (PDF)](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/Network%20Programming%20Individual%20Assignment_Nur%20Amirah%20Fikriyah.pdf)
