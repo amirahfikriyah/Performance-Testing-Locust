@@ -32,7 +32,7 @@ Outcome: Detects memory leaks, degradation, and prolonged response-time patterns
 
 # Raw Data Presentation
 ## Load Test Results
-![Load Test Statistics](http://i.hmp.me/m/67b8704e2edda56ddc41b5c3b404c70a.png)
+![Load Test Statistics](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/load%20test%20chart.png)
 
 
 
