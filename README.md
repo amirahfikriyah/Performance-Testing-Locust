@@ -12,9 +12,9 @@ The hypothesis made by the creator of the test API was that it would work consis
 1️⃣ Load Test
 
 Purpose: Evaluate system behavior under typical and peak expected user load.
-Users: 100
-Duration: 6 minutes
-Outcome: Measures response stability and error rates under moderate pressure.
+-Users: 100
+-Duration: 6 minutes
+-Outcome: Measures response stability and error rates under moderate pressure.
 
 2️⃣ Stress Test
 
