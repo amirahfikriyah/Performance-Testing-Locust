@@ -56,6 +56,33 @@ During the testing phase, there were a total of 173,355 connections generated fr
 
 At the completion of the 44-minute soak test, the system successfully handled a total of 119,804 requests with no failed requests, providing a consistent response time of approximately 253 milliseconds and producing steady throughput between 45 and 47 requests per second. Additionally, there was no evidence of memory leaks or prolonged periods of instability, thus demonstrating that the system can sustain itself under heavy and sustained workloads.
 
+# Analysis of Collected Metrics
+Clear patterns of behavior emerged for the API across the three tests. The Load and Soak tests revealed stable response times, consistent throughput, and no failures, indicating that the API is efficient in handling moderate and sustained traffic. Conversely, the Stress Test showed distinct performance degradation under extreme concurrency, as evidenced by increasing latency, loss of responsiveness, and increased error rates. Response-time percentiles and RPS charts all confirm that the API continues to be reliable until the system limits are approached. While utilization of the backend CPU and memory was not measured directly, the stability during the soak test would indicate that resources were within healthy ranges during prolonged activity.
+
+# Identified Bottlenecks
+During the stress testing process, the stress test results showed bottlenecks when there were phases in which the connection had 'time-outs', and extreme latencies were experienced, indicating that the solution had become fully saturated. Testing indicated that once the users reached 500, the API began to have issues maintaining its expected response times, causing delays to exceed 100 seconds. Soak testing demonstrated stable performance, however, minor fluctuations in testing were evident, indicating the backend would experience degradation in its ability to process under sudden workloads. The system performs okay under moderate workloads, but severe concurrency cannot be managed without impact.
+
+# Recommendations for Improvement
+Currently, the main recommendation to improve the system's performance consists of several best practices:
+
+
+-Establish an auto-scaling solution that can automatically allocate additional resources when the system is under heavy load.
+
+
+-Utilize load balancing techniques to more evenly distribute incoming requests.
+
+
+-Improve backend transactions by optimizing database queries, using caching techniques, etc.
+
+
+-Implement connection Timeout handling enhancements to allow for the resilience of connections during periods of stress.
+
+
+-Utilize performance monitoring tools (like Grafana, Prometheus, APM, etc.) to analyze performance in-depth.
+
+
+-Add additional future test scenarios, including multi-endpoint testing and authenticated workflow testing.
+
 ## Project Documentation
 - 📄 [Final Report (PDF)](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/Network%20Programming%20Individual%20Assignment_Nur%20Amirah%20Fikriyah.pdf)
 - 
