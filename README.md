@@ -43,6 +43,18 @@ Outcome: Detects memory leaks, degradation, and prolonged response-time patterns
 ![Stress Test Statistics](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/stress%20test%20statistic.png)
 ![Stress Test Chart](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/stress%20test%20chart.png)
 
+# Summary of Test Results
+1️⃣ Load Test Summary
+
+The load test processed 16,911 requests at a constant throughput of 43–44 RPS with zero failures throughout the run. Response times were very consistent, usually around 250 ms, with only occasional spikes. This suggests the API is resilient to moderate loads.
+
+2️⃣ Stress Test Summary
+
+During the testing phase, there were a total of 173,355 connections generated from the test session and at least 280 to 290 RPS being handled as a maximum throughput. However, 1,035 connections were unable to connect due to connection errors or timeouts and the response time per connection increased exponentially to above 105 seconds. The above results illustrate that the system cannot handle extreme amounts of concurrent connections without degradation in performance.
+
+3️⃣ Soak Test Summary
+
+At the completion of the 44-minute soak test, the system successfully handled a total of 119,804 requests with no failed requests, providing a consistent response time of approximately 253 milliseconds and producing steady throughput between 45 and 47 requests per second. Additionally, there was no evidence of memory leaks or prolonged periods of instability, thus demonstrating that the system can sustain itself under heavy and sustained workloads.
 
 ## Project Documentation
 - 📄 [Final Report (PDF)](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/Network%20Programming%20Individual%20Assignment_Nur%20Amirah%20Fikriyah.pdf)
