@@ -88,4 +88,4 @@ Overall, the outcomes of this project demonstrate the performance capacity of th
 
 ## Project Documentation
 - 📄 [Final Report (PDF)](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/Network%20Programming%20Individual%20Assignment_Nur%20Amirah%20Fikriyah.pdf)
-- 
+- [Youtube Video Demonstration] (https://youtu.be/7xXbppfl4hU)
