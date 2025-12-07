@@ -35,6 +35,13 @@ Outcome: Detects memory leaks, degradation, and prolonged response-time patterns
 ![Load Test Statistics](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/load%20test%20statistic.png)
 ![Load Test Chart](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/load%20test%20chart.png)
 
+## Soak Test Results
+![Soak Test Statistics](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/soak%20test%20statistic.png)
+![Soak Test Chart](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/soak%20test%20chart.png)
+
+## Stress Test Results
+![Stress Test Statistics](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/stress%20test%20statistic.png)
+![Stress Test Chart](https://github.com/amirahfikriyah/Performance-Testing-Locust/blob/main/stress%20test%20chart.png)
 
 
 ## Project Documentation
